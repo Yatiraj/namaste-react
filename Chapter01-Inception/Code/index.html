@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namaste React</title>
+</head>
+<body>
+    <div id="root"></div>
+    <div id="anotherRoot"></div>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script>
+        const headingElement = React.createElement('h1', {}, 'Namaste React');
+    
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(headingElement);
+
+        const anotherRoot = ReactDOM.createRoot(document.getElementById('anotherRoot'));
+        anotherRoot.render(headingElement);
+
+    </script>
+</body>
+</html>
