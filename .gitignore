@@ -1,0 +1,25 @@
+# dependencies
+node_modules
+
+# testing
+coverage
+
+# build artifacts
+build
+dist
+public
+
+# logs
+*.log
+
+# ide
+.idea
+*.iml
+
+# misc
+.DS_Store
+variables.txt
+
+#temp
+temp
+.parcel-cache
