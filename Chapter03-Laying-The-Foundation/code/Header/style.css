@@ -1,0 +1,20 @@
+#header {
+    display: flex;
+}
+
+#header-logo img{
+    height: 60px;
+    width: 60px;
+}
+
+#user-icon img {
+    height: 60px;
+    width: 60px;
+}
+
+#search-bar {
+    height: 60px;
+    width: 400px;
+    border-style: solid;
+    border-width: thin;
+}
